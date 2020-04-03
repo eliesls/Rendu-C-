@@ -119,7 +119,7 @@ La fonction edit permet d'éditer un attribut d'une tâche.
 
 La syntaxe est : 
 ```sh
-./todo "id de la tâche à modifier" --attribut_a_modifier "nouvelle valeur"
+./todo edit "id de la tâche à modifier" --attribut_a_modifier "nouvelle valeur"
 ```
 Par exemple pour les tâches : 
 
@@ -131,7 +131,7 @@ Par exemple pour les tâches :
 Alors si on éxécute :
 
 ```sh
-./todo 2 --priority URGENTE
+./todo edit 2 --priority URGENTE
 ```
 On obtient : 
 ```sh
